@@ -1,0 +1,10 @@
+# Site settings
+title: Slash
+email: vmalloc@gmail.com
+description: > 
+    Slash is a testing framework written in Python for testing real world projects. It puts an emphasis on customizing and expanding the infrastructure, tailoring it to your needs
+baseurl: "" 
+url: "https://getslash.github.io" # 
+
+# Build settings
+markdown: kramdown

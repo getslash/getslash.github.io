@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="container post">
+  <h1>{{page.title}}</h1>
+  <small>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</small>
+
+  <article>
+    {{ content }}
+  </article>
+
+</div>

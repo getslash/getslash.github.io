@@ -1,0 +1,127 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+}
+
+.header.main {
+    background-image: url('../img/banner-bg.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    position: relative;
+
+    padding: 200px;
+    padding-left: 350px;
+    padding-top: 100px;
+
+    h1 {
+	font-size: 550%;	
+    }
+
+
+    small {
+	color: $gray-light;
+	font-size: 160%;
+    }
+
+    .logo {
+	height: 200px;
+	position: absolute;
+	left: 100px;
+	top: 110px;
+    }
+}
+
+
+
+#latest-news {
+    position: absolute;
+    top: 10%;
+    right: 3em;
+    color: $gray-lighter;
+    opacity: 0.7;
+    &:hover {
+	opacity: 1.0;
+	transition: opacity 0.2s;
+    }
+    transition: opacity 1s;
+}
+
+@media (max-width: 1000px) {
+    #latest-news {
+	display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .logo {
+	display: none;
+    }
+
+    .header.main {
+	padding: 5em;
+    }
+}
+
+
+.feature {
+    min-height: 100px;
+    padding: 20px;
+
+    background: $gray-lighter;
+    &.dark {
+	background: $gray-darker;
+	color: $gray-lighter;
+    }
+
+    &.made-by {
+	color: white;
+
+	background: -webkit-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* IE10 */
+	background:      -o-linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* Opera 11.10+ */
+	background:         linear-gradient(90deg, #649173 10%, #DBD5A4 90%); /* W3C */
+        img {
+	    height: 5em;
+	    margin: 3em;
+	}
+    }
+
+    p {
+	margin-top: 1em;
+    }
+    
+}
+
+.featurette {
+    padding: 5em;
+    
+    .col-sm-6 {
+	position: relative;
+	img,i {
+	    height: 5em;
+	    position: absolute;
+	    top: 40px;
+	    left: 1em;
+	}
+
+	padding: 20px;
+	padding-left: 10em;
+    }
+
+}
+ 
+
+.post-short {
+    h3>a {
+	text-decoration: none;
+    }
+}
+
+.post article {
+    margin-top: 2em;
+}
+
+
