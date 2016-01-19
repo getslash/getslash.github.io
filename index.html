@@ -15,114 +15,21 @@ layout: default
     {% endfor %}
   </div>
 
-  <img class="logo" src="img/slash.svg">
-  <h1>
-    Slash
+  <h1 class="smaller">
+    The Slash Project
   </h1>
-  <small>Testing for the Real World, Done Right</small>
+  <small>Enterprise Testing that Doesn't Suck</small>
 
 </div>
 
 <div class="container text-center">
-  <h1>What is Slash?</h1>
-  <p>Slash is a testing framework written in Python, intended for testing large scale projects, especially in integration scenarios.</p>
+  <h1>What we do</h1>
   <p>
-    Slash focuses on customization and extensibility, allow you to tailor the framework for your specific needs, making it <strong>your</strong> testing framework.
+    We are software developers having dedicated a large portion of our careers to writing code that tests, stresses and verifies complex software projects, mostly ones involving hardware.</p>
+  <p>
+    Testing and integrating with such projects requires sophisticated tools and infrastructure in order to get testing done right.</p>
+  <p>
+    We believe in building robust tools that make such undertakings possible. Tools that make testing complex products suck less.
   </p>
-
 </div>
-<div class="container featurette-container">
-  <div class="row-fluid">
-    <div class="col-sm-6">
-      <h1>Session Consistency</h1>
-      <img src="img/consistency.jpg">
-      <p>
-        Slash puts a strong emphasis not only on your tests, but also on what happens before, after and in between. It allows you to maintain state, cleanup stacks, exception handling hooks and other pieces of logic that grasp your testing project as a whole
-      </p>
-    </div>
-    <div class="col-sm-6">
-      <h1>Extensible</h1>
-      <p>Slash has first class support for plugins which are easy to write, load and maintain.</p>
-      <p>Plugins can have their own configuration, interact with the command-line, hook into various steps of the suite execution and more, allowing you to truly take control of your framework</p>
-      <img src="img/plugins.jpg">
-    </div>
-  </div>
-  <div class="row-fluid">
-    <div class="col-sm-6">
-      <h1>Customizable</h1>
-      <p>Slash supports a wide range of customization options - from a rich configuration mechanism, through a robust hook/callback system and multiple locations to write your customizations down.</p>
-      <p>Customizations can be easily added on a per-user, per-project or ad-hoc basis -- allowing developers maximum flexibility and control over the end result.</p>
-      <img src="img/customize.jpg">
-    </div>
-    <div class="col-sm-6">
-      <h1>Powerful</h1>
-      <p>Slash comes with powerful tools and facilities to help you write your tests in an efficiently and concisely. You can parametrize your tests automatically, use fixtures to describe test setups, manage cleanups on multiple scopes and much, much more.</p>
-      <img src="img/powerful.jpg">
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <div class="row-fluid">
-    <div class="col-sm-4 text-center">
-      <i class="fa fa-arrows-h fa-5x"></i>
-      <h3>Compatible</h3>
-      <img alt="" src="https://img.shields.io/pypi/pyversions/slash.svg"/>
-      <p>Real world projects use real-world Python distributions, so we take great care to maintain Python version compatibility, all the way back to 2.6 which is still found on old production distros. We even support pypy!
-      </p>
-    </div>
-
-    <div class="col-sm-4 text-center">
-      <i class="fa fa-github fa-5x"></i>
-      <h3>Open Source</h3>
-      <p>Slash is and always will be free and open source software, released under the BSD 3-clause license.
-      </p>
-    </div>
-
-    <div class="col-sm-4 text-center">
-      <i class="fa fa-check fa-5x"></i>
-      <h3>Tested</h3>
-      <p>
-      <img alt="" src="https://img.shields.io/coveralls/getslash/slash/develop.svg"/>
-      </p>
-      <p>
-      Slash is heavily tested using a continuously growing suite of hundreds of internal tests. We also eat our own dogfood and use it in our own projects.
-      </p>
-    </div>
-
-  </div>
-</div>
-
-<div class="section dark">
-  <h1 class="text-center">Ready to Get Started?</h1>
-
-  <div class="container-fluid">
-    <div class="col-md-6 col-md-offset-3">
-      <ol>
-        <li>
-          Install via pip:
-          {% highlight bash %}
-  pip install slash{% endhighlight %}
-        </li>
-        <li>
-          Write your first test:
-          {% highlight python %}
-def test_something():
-    assert 2 + 2 == 4
-          {% endhighlight %}
-        </li>
-        <li>
-          Run your tests:
-          {% highlight bash %}
-          slash run ./testfile.py
-          {% endhighlight %}
-        </li>
-        <li>
-          There's <strong>A LOT</strong> more to Slash than this! Go through the <a href="http://slash.readthedocs.org">documentation</a> to learn more!
-        </li>
-      </ol>
-    </div>
-  </div>
-</div>
-
 

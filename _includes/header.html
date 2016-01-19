@@ -14,12 +14,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        {% for page in site.pages %}
-        {% if page.title %}
-        <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-        {% endif %}
+        {% for nav_link in site.data.nav_links %}
+        <li><a class="page-link" href="{{ nav_link.url | prepend: site.baseurl }}">{{ nav_link.title }}</a></li>
         {% endfor %}
-        <li><a class="page-link" href="{{site.baseurl}}/blog.html">Blog</a></li>
       </ul>
       <div class="navbar-right">
         <ul class="nav navbar-nav navbar-right">
