@@ -4,3 +4,6 @@
   slug: Centralized test reporting and analysis service
 - name: scotty
   slug: Log uploading and lifetime management service
+- name: mailboxer
+  slug: Utility for automated email notifications tests
+  link: https://github.com/getslash/mailboxer

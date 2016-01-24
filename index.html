@@ -41,7 +41,7 @@ layout: default
     <div class="col-sm-4">
       <h3>{{proj.name|capitalize}}</h3>
       <p>{{proj.slug}}</p>
-      <a href="/{{proj.name}}/">Read more...</a>
+      <a href="{%if proj.link %}{{proj.link}}{% else %}/{{proj.name}}/{% endif %}">Read more...</a>
     </div>
   </div>
   {% endfor %}
