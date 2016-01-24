@@ -1,4 +1,6 @@
 - name: slash
-  slug: A flexible, extensible testing framework
+  slug: Flexible, extensible testing framework
 - name: backslash
-  slug: A centralized test reporting and analysis service
+  slug: Centralized test reporting and analysis service
+- name: scotty
+  slug: Log uploading and lifetime management service
