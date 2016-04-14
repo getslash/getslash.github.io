@@ -116,7 +116,7 @@ body {
 
 .featurette-container {
     padding: 5em;
-    
+
     .col-sm-6 {
 	position: relative;
 	img,i {
@@ -131,7 +131,7 @@ body {
     }
 
 }
- 
+
 
 .post-short {
     h3>a {
@@ -144,3 +144,27 @@ body {
 }
 
 
+.margin-top {
+    margin-top: 2em;
+}
+
+.margin-top-big {
+    margin-top: 4em;
+}
+
+
+img.fit {
+    width: 100%;
+}
+
+// Backslash page
+
+.backslash-feature-image {
+    @extend .col-sm-12;
+    @extend .col-md-7;
+}
+
+.backslash-feature-text {
+    @extend .col-sm-12;
+    @extend .col-md-5;
+}
